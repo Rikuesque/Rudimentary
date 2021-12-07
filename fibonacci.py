@@ -8,7 +8,7 @@ def sequence():
         list = [1]
     elif number == 2:
         list = [1, 1]
-    elif number > 2:
+    else:
         list = [1]
         for i in range(number-1):
             a, b = b, a+b
