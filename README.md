@@ -1,2 +1,1 @@
-# Rudimentary
-Rudimentary Codes
+# Beginner stuff
