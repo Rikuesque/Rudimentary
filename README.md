@@ -1,2 +1,2 @@
-# fibonacci
+# Rudimentary
 Rudimentary Codes
