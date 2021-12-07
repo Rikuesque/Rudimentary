@@ -1,10 +1,18 @@
 number = int(input("How may Fibonacci numbers: "))
 def sequence():
-    list = [1]
     a, b = 0, 1
-    for i in range(number):
-        a, b = b, a+b
-        list.append(b)
+    list = []
+    if number == 0:
+        list = []
+    elif number == 1:
+        list = [1]
+    elif number == 2:
+        list = [1, 1]
+    elif number > 2:
+        list = [1]
+        for i in range(number-1):
+            a, b = b, a+b
+            list.append(b)
     print(list)
         
 sequence()
