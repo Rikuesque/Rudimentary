@@ -1,2 +1,2 @@
 # fibonacci
-Fibonacci Sequence Generator
+Rudimentary Codes
