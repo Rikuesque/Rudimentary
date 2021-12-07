@@ -1,4 +1,4 @@
-number = int(input("How may Fibonacci numbers: "))
+number = int(input("How many Fibonacci numbers: "))
 def sequence():
     a, b = 0, 1
     list = []
